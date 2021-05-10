@@ -131,6 +131,10 @@ nav li.selected:hover a {
     border-radius: 15px;
 }
 
+#nota {
+    font-size: 10px;
+}
+
 #nosotrosImg {
     width: auto;
     height: 50%;
