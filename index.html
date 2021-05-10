@@ -17,7 +17,7 @@
                 <span id="text-menu">
                     <ul>
                         <li>
-                            <a href="index.html"><img width="160px" height="auto" src="imagenes/logo.png"></a>
+                            <a href="index.html"><img id="logoImg" src="imagenes/logo.png"></a>
                         </li>
                         <li class="selected">
                             <a href="index.html"> Inicio </a>
@@ -63,7 +63,10 @@
                             <li> Decide </li>
                             <li> Nosotros lo hacemos realidad </li>
                         </ol>
-                        <img width="30%" height="auto" src="imagenes/sueños.jpg" alt="Sueños">
+                        <canvas id="contentImg"> 
+                            Su navegador no soporta canvas
+                        </canvas>
+                        <p>Proximamente este lienzo sera habilitado para que dibujes tus ideas</p>
                         <p><i><u>Plasma tus sueños y tus deseos en la web para asi impactar a tus clientes</u> </i> </p>
                     </article>
                 </section>
@@ -71,7 +74,7 @@
         </div>
     </div>
     <div id="footer">
-        <hr width="100%" align="center" noshade="noshade">
+        <hr>
         <footer>
             <ul id="redes-sociales">
                 <li>
@@ -84,8 +87,8 @@
                     <a href="https://gmail.com"> <img src="imagenes/iconos/mail.png" alt="Email"> jolmoz000@gmail.com</a>
                 </li>
             </ul>
-            <h6 align="center"> <i><font color="#333" face="georgia"><b>Jolmoz Web</b></font></i></h6>
-            <p align="center"><font size="1px" face="georgia">Pagina Web creada por Jose Luis Molina Zuluaga</font></p>
+            <h6> <i><b>Jolmoz Web</b></i></h6>
+            <p id="derechosFont">Pagina Web creada por Jose Luis Molina Zuluaga</p>
         </footer>
     </div>
 </body>

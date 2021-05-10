@@ -15,7 +15,7 @@
                 <span id="text-menu">
                     <ul>
                         <li>
-                            <a href="index.html"><img width="160px" height="auto" src="imagenes/logo.png"></a>
+                            <a href="index.html"><img id="logoImg" src="imagenes/logo.png"></a>
                         </li>
                         <li>
                             <a href="index.html"> Inicio </a>
@@ -50,7 +50,7 @@
         <div id="content">
             <span id="text-content">
                 <section>
-                    <article><p>Buscanos en Facebook, Instagram y por Email!</p><br>
+                    <article id="contactArticle"><p>Buscanos en Facebook, Instagram y por Email!</p><br>
                         <table id="table-redes">
                             <tr>
                                 <th> Facebook </th>
@@ -59,16 +59,30 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <a href="https://www.facebook.com/profile.php?id=100001912261777"><img width="80%" height="auto" src="imagenes/iconos/fb.png" alt="Facebook"> </a>
+                                    <a href="https://www.facebook.com/profile.php?id=100001912261777"><img class="iconosImg" src="imagenes/iconos/fb.png" alt="Facebook"> </a>
                                 </td>
                                 <td>
-                                    <a href="https://www.instagram.com/jolmoz.asdf/"><img width="80%" height="auto" src="imagenes/iconos/insta.png" alt="Instagram"> </a>
+                                    <a href="https://www.instagram.com/jolmoz.asdf/"><img class="iconosImg" src="imagenes/iconos/insta.png" alt="Instagram"> </a>
                                 </td>
                                 <td>
-                                    <a href="https://gmail.com"><img width="80%" height="auto" src="imagenes/iconos/mail.png" alt="Email"> jolmoz000@gmail.com</a>
+                                    <a href="https://gmail.com"><img class="iconosImg" src="imagenes/iconos/mail.png" alt="Email"> jolmoz000@gmail.com</a>
                                 </td>
                             </tr>
                         </table>
+                        <form>
+                            <p>Si desea ser contactado puede dejarnos sus datos</p>
+                            <label for="inputNombre">Inserte su nombre</label>
+                            <input type="text" name="nombre" id="inputNombre" required>
+
+                            <label for="inputEmail">Inserte su email</label>
+                            <input type="email" name="email" id="inputEmail" required>
+
+                            <label for="inputContenido">Describa que servicios desea</label>
+                            <textarea name="contenido" id="inputContenido" cols="30" rows="5" placeholder="Puede especificar si desea cursos o paginas web" required></textarea>
+
+                            <input type="submit" value="Enviar">
+                        
+                        </form>
                     </article>
                 </section>
             </span>
@@ -82,14 +96,14 @@
                     <a href="https://www.facebook.com/profile.php?id=100001912261777"><img src="imagenes/iconos/fb.png" alt="Facebook"> Facebook</a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/jolmoz.asdf/"><img src="imagenes/iconos/insta.png" alt="Instagram"> Instagram</a>
+                    <a href="https://www.instagram.com/jolmoz.asdf/"> <img src="imagenes/iconos/insta.png" alt="Whatsapp"> Instagram</a>
                 </li>
                 <li>
-                    <a href="https://gmail.com"><img src="imagenes/iconos/mail.png" alt="Email"> jolmoz000@gmail.com</a>
+                    <a href="https://gmail.com"> <img src="imagenes/iconos/mail.png" alt="Email"> jolmoz000@gmail.com</a>
                 </li>
             </ul>
-            <h6 align="center"><i><font color="#333" face="georgia"><b>Jolmoz Web</b></font></i></h6>
-            <p align="center"><font size="1px" face="georgia">Pagina Web creada por Jose Luis Molina Zuluaga</font></p>
+            <h6> <i><b>Jolmoz Web</b></i></h6>
+            <p id="derechosFont">Pagina Web creada por Jose Luis Molina Zuluaga</p>
         </footer>
     </div>
 </body>
