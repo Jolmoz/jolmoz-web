@@ -131,10 +131,6 @@ nav li.selected:hover a {
     border-radius: 15px;
 }
 
-#nota {
-    font-size: 10px;
-}
-
 #nosotrosImg {
     width: auto;
     height: 50%;
@@ -162,6 +158,17 @@ section>article {
     height: 100%;
 }
 
+#mas-button {
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: larger;
+}
+
+#mas-button:hover {
+    cursor: pointer;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -176,12 +183,8 @@ section>article>table {
     border-radius: 15px;
 }
 
-#tabla-trabajo {
-    background-color: #666;
-}
-
 section>article>table>tbody>tr>th {
-    color: white;
+    color: #333;
     padding: 1vh;
 }
 
@@ -190,17 +193,13 @@ section>article>table>tbody>tr>th>img {
 }
 
 #table-redes tbody tr th {
-    background-color: #aaa;
     margin: 0%;
     padding: 0%;
-    border-radius: 15px;
 }
 
 #table-redes tbody tr td {
-    border: 1px solid black;
     margin: 0%;
     padding: 0%;
-    border-radius: 15px;
 }
 
 #table-redes tbody tr td a {
