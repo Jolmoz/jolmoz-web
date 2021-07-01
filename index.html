@@ -1,161 +1,351 @@
 <!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Jose Luis Molina Zuluaga">
-    <meta name="description" content="Portafolio Web">
-    <meta name="keywords" content="HTML5, CSS3, JavaScript, Web Design, Desarrollo Web">
-    <link rel="stylesheet" href="estilos.css">
-    <title>Jolmoz Web</title>
-</head>
-
-<body>
-    <header>
-        <div id="navbar">
-            <nav>
-                <span id="text-menu">
-                    <ul>
-                        <li>
-                            <a href="index.html"><img id="logoImg" src="imagenes/logo.png"></a>
-                        </li>
-                        <li class="selected">
-                            <a href="index.html"> Inicio </a>
-                        </li>
-                        <li>
-                            <a href="trabajo.html"> Nuestro Trabajo </a>
-                        </li>
-                        <li>
-                            <a href="cursos.html"> Nuestros Cursos </a>
-                        </li>
-                        <li>
-                            <a href="nosotros.html"> Acerca de Nosotros </a>
-                        </li>
-                        <li>
-                            <a href="contacto.html"> Informacion de Contacto </a>
-                        </li>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Propuesta Jolmoz-Techno</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" type="text/css" href="css/util.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/logonav.png" alt="..." /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#masterheader">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="builder.html">Constructor</a></li>
+                        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
                     </ul>
-                </span>
-            </nav>
-        </div>
-    </header>
-    <div id="page">
-        <aside id="sidebar">
-            <section>
-                <article>
-                    <em><b><h5>En Jolmoz Web nos preocupamos por ti, te ayudaremos a crear el sitio web perfecto deacuerdo a lo que buscas.</h5></b></em>
-                    <audio controls autoplay loop>
-                        <source src="audio/fondo1.ogg">
-                    </audio>
-                    <video width="100%" height="auto" controls src="videos/bienvenidos.mp4"><p>Formato de video no admitido</p></video>
-                </article>
-            </section>
-        </aside>
-        <div id="content">
-            <span id="text-content">
-                <section>
-                    <article>
-                        <p>Si estas buscando complementar tu negocio o aprender sobre el desarrollo y diseño web estas en el sitio adecuado</p>
-                        <br>
-                        <ol id="listNum">
-                            <li> Imagina </li>
-                            <li> Planea </li>
-                            <li> Decide </li>
-                            <li> Nosotros lo hacemos realidad </li>
-                        </ol>
-                        <script>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead" id="masterheader">
+            <div class="container">
+                <div class="masthead-subheading">Bienvenido a</div>
+                <div class="masthead-heading text-uppercase">Jolmoz-Techno</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Conoce más</a>
+            </div>
+        </header>
+        
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Servicios</h2>
+                    <h3 class="section-subheading text-muted">En Jolmoz-Techno te ofrecemos lo adecuado para ti</h3>
+                </div>
+                <div class="row text-center" id="servicesSection">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Tienda Online</h4>
+                        <p class="text-muted">Haz tus compras fácil y rápido de manera virtual</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Constructor de PCs</h4>
+                        <p class="text-muted">A través de nuestro constructor arma el PC de tus sueños</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Seguridad</h4>
+                        <p class="text-muted">Compras seguras y garantizadas a través de transacciones externas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Propuesta Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Algunas muestras de nuestro trabajo</h2>
+                    <h3 class="section-subheading text-muted">Podrias tener uno de estos</h3>
+                </div>
+                <div class="row">
+                    
+                        <!-- Propuesta item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <p>Renderiza video</p>
+                                </div>
+                        </div>
+                        <!-- Propuesta item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <p>Crea contenido</p>
+                                </div>
+                        </div>
 
-                            let lista = document.getElementById('listNum').children;
-                            let i = 0;
-                            do {
-                                lista.item(i).style.visibility = 'hidden'
-                                i++;
-                            } while (i<4)
+                        <!-- Propuesta item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <p>Juega</p>
+                                </div>
+                        </div>
 
-                            function timeout(i) {
-                                if (i<4){
-                                    setTimeout(function () {
-                                        lista.item(i).style.visibility = 'visible'
-                                        i++;
-                                        timeout(i);
-                                    }, 1000);
-                                }
-                            }
-                            timeout(0);
+                        <!-- Propuesta item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <p>Diseña</p>
+                                </div>
+                        </div>
+                    
+                        <!-- Propuesta item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <p>Trabaja en casa</p>
+                                </div>
+                        </div>
 
-                        </script>
-                        <canvas id="contentImg"> 
-                            Su navegador no soporta canvas
-                        </canvas>
-                        <script type="text/javascript">
-                            const canvas = document.getElementById("contentImg");
-                            const ctx = canvas.getContext("2d");
+                        <!-- Propuesta item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <p>Realiza deberes</p>
+                                </div>
+                        </div>
+                </div>
+            </div>
+        </section>
 
-                            function resize() {
-                                ctx.canvas.width = canvas.width;
-                                ctx.canvas.height = canvas.height;
-                            }
-
-                            window.addEventListener("resize", resize);
-
-                            resize();
-
-                            let coord = { x: 0, y: 0, 
-                                reposition:function(event){
-                                    coord.x = event.clientX - canvas.offsetLeft;
-                                    coord.y = event.clientY - canvas.offsetTop;
-                                } 
-                            };
-
-                            document.addEventListener("mousedown", start);
-                            document.addEventListener("mouseup", stop);
-
-                            function start(event) {
-                                document.addEventListener("mousemove", draw);
-                                coord.reposition(event);
-                            }
-                            
-                            function stop() {
-                                document.removeEventListener("mousemove", draw);
-                            }
-
-                            function draw(event) {
-                                ctx.beginPath();
-                                ctx.lineWidth = 2;
-                                ctx.lineCap = "round";
-                                ctx.strokeStyle = "#ACD3ED";
-                                ctx.moveTo(coord.x, coord.y);
-                                coord.reposition(event);
-                                ctx.lineTo(coord.x, coord.y);
-                                
-                                ctx.stroke();
-                            }
-
-                        </script>
-                        <p><i><u>Plasma tus sueños y tus deseos en la web para asi impactar a tus clientes</u> </i> </p>
-                    </article>
-                </section>
-            </span>
-        </div>
-    </div>
-    <div id="footer">
-        <hr>
-        <footer>
-            <ul id="redes-sociales">
-                <li>
-                    <a href="https://www.facebook.com/profile.php?id=100001912261777"><img src="imagenes/iconos/fb.png" alt="Facebook"> Facebook</a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/jolmoz.asdf/"> <img src="imagenes/iconos/insta.png" alt="Whatsapp"> Instagram</a>
-                </li>
-                <li>
-                    <a href="https://gmail.com"> <img src="imagenes/iconos/mail.png" alt="Email"> jolmoz000@gmail.com</a>
-                </li>
-            </ul>
-            <h6> <i><b>Jolmoz Web</b></i></h6>
-            <p id="derechosFont">Pagina Web creada por Jose Luis Molina Zuluaga</p>
+        <!-- Footer-->
+        <footer class="footer py-4" id="footer">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Jose Luis Molina Zuluaga 2021</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/Jolmoz"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/profile.php?id=100001912261777"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/jose-luis-molina-zuluaga-1a102018a/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
         </footer>
-    </div>
-</body>
+        <!-- Portfolio Modals-->
 
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Jolmoz-Techno</h2>
+                                    <p class="item-intro text-muted">Equipos de alta gama para tus necesidades.</p>
+                                    <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Cerrar proyecto
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Jolmoz-Techno</h2>
+                                    <p class="item-intro text-muted">Equipos de alta gama para tus necesidades.</p>
+                                    <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Cerrar proyecto
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!-- Portfolio item 3 modal popup-->
+         <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Jolmoz-Techno</h2>
+                                    <p class="item-intro text-muted">Equipos de alta gama para tus necesidades.</p>
+                                    <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Cerrar proyecto
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!-- Portfolio item 4 modal popup-->
+         <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Jolmoz-Techno</h2>
+                                    <p class="item-intro text-muted">Equipos de alta gama para tus necesidades.</p>
+                                    <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Cerrar proyecto
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Jolmoz-Techno</h2>
+                                    <p class="item-intro text-muted">Equipos de alta gama para tus necesidades.</p>
+                                    <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Cerrar proyecto
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Jolmoz-Techno</h2>
+                                    <p class="item-intro text-muted">Equipos de alta gama para tus necesidades.</p>
+                                    <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Cerrar proyecto
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>

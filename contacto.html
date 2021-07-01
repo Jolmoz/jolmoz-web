@@ -1,155 +1,138 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Jose Luis Molina Zuluaga">
-    <meta name="description" content="Portafolio Web">
-    <meta name="keywords" content="HTML5, CSS3, JavaScript, Web Design, Desarrollo Web">
-    <link rel="stylesheet" href="estilos.css">
-    <title>Jolmoz Web</title>
-</head>
-<body>
-    <header>
-        <div id="navbar">
-            <nav>
-                <span id="text-menu">
-                    <ul>
-                        <li>
-                            <a href="index.html"><img id="logoImg" src="imagenes/logo.png"></a>
-                        </li>
-                        <li>
-                            <a href="index.html"> Inicio </a>
-                        </li>
-                        <li>
-                            <a href="trabajo.html"> Nuestro Trabajo </a>
-                        </li>
-                        <li>
-                            <a href="cursos.html"> Nuestros Cursos </a>
-                        </li>
-                        <li>
-                            <a href="nosotros.html"> Acerca de Nosotros </a>
-                        </li>
-                        <li class="selected">
-                            <a href="contacto.html"> Informacion de Contacto </a>
-                        </li>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Jolmoz-Techno</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" type="text/css" href="css/util.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/logonav.png" alt="..." /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="builder.html">Constructor</a></li>
+                        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#masterheader">Contacto</a></li>
                     </ul>
-                </span>
-            </nav>
-        </div>
-    </header>
-    <div id="page">
-        <aside id="sidebar">
-            <section>
-                <article>
-                    <em><b><h5>Estamos muy al tanto de nuestros clientes, contactanos y compruebalo!</h5></b></em>
-                    <audio controls autoplay loop><source src="audio/fondo5.ogg"></audio>
-                    <video width="100%" height="auto" controls src="videos/redes.mp4"><p>Formato de video no admitido</p></video>
-                </article>
-            </section>
-        </aside>
-        <div id="content">
-            <span id="text-content">
-                <section>
-                    <article id="contactArticle"><p>Buscanos en:</p><br>
-                        <table id="table-redes">
-                            <tr>
-                                <th> Facebook </th>
-                                <th> Instagram </th>
-                                <th> Email </th>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a href="https://www.facebook.com/profile.php?id=100001912261777"><img class="iconosImg" src="imagenes/iconos/fb.png" alt="Facebook"> </a>
-                                </td>
-                                <td>
-                                    <a href="https://www.instagram.com/jolmoz.asdf/"><img class="iconosImg" src="imagenes/iconos/insta.png" alt="Instagram"> </a>
-                                </td>
-                                <td>
-                                    <a href="https://gmail.com"><img class="iconosImg" src="imagenes/iconos/mail.png" alt="Email"> jolmoz000@gmail.com</a>
-                                </td>
-                            </tr>
-                        </table>
-                        <form id="form">
-                            <p>Si desea ser contactado puede dejarnos sus datos</p>
-                            <label for="inputNombre">Inserte su nombre</label>
-                            <input type="text" name="nombre" id="inputNombre" required>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead" id="masterheader">
+            <div class="container">
+                <div class="masthead-subheading">Siempre</div>
+                <div class="masthead-heading text-uppercase">Te Ayudaremos</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#contact">Más</a>
+            </div>
+        </header>
 
-                            <label for="inputEmail">Inserte su email</label>
-                            <input type="email" name="email" id="inputEmail" required>
-
-                            <div>
-                                <label for="checknoticias"> Deseo recibir noticias via email</label>
-                                <input type="checkbox" id="checknoticias" name="noticias">
+         <!-- Contact-->
+         <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contáctanos</h2>
+                    <h3 class="section-subheading text-muted">Escucharemos tus peticiones</h3>
+                </div>
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- * * SB Forms Contact Form * *-->
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- This form is pre-integrated with SB Forms.-->
+                <!-- To make this form functional, sign up at-->
+                <!-- https://startbootstrap.com/solution/contact-forms-->
+                <!-- to get an API token!-->
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" id="name" type="text" placeholder="Su Nombre *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">Nombre requerido.</div>
                             </div>
-
-                            <label for="inputContenido">Describa que servicios desea</label>
-                            <textarea name="contenido" id="inputContenido" cols="30" rows="5" placeholder="Puede especificar si desea cursos o paginas web" required></textarea>
-                            <input type="submit" value="Enviar">
-                        
-                        </form>
-
-                        <script type="text/javascript">
-                            const form = document.getElementById('form')
-                            form.addEventListener('submit', formSent);
-
-                            let infoMatrix = []
-
-                            function formSent(event) {
-                                let elementos = form.getElementsByTagName("input")
-
-                                for (let i=0;i<elementos.length;i++){
-                                    if(elementos.item(i).type == 'checkbox'){
-                                        infoMatrix[i]=elementos.item(i).checked
-                                    }else{
-                                        infoMatrix[i]=elementos.item(i).value
-                                    }
-                                    
-                                }
-
-                                elementos = form.getElementsByTagName("textarea")
-
-                                let i=0;
-
-                                while (i<elementos.length){
-                                    infoMatrix[infoMatrix.length+i]=elementos.item(i).value;
-                                    i++;
-                                }
-
-                                let sentMsg = '';
-
-                                switch(infoMatrix[2]){
-                                    case true:
-                                        sentMsg = 'Datos enviados, nombre: ' + infoMatrix[0]+ '- email: '+infoMatrix[1]+' se enviaran noticias - comentario: '+infoMatrix[4];
-                                        break;
-                                    case false:
-                                        sentMsg = 'Datos enviados, nombre: ' + infoMatrix[0]+ '- email: '+infoMatrix[1]+' no se enviaran noticias - comentario: '+infoMatrix[4]
-                                        break;
-                                }
-                                alert(sentMsg)
-                            }
-                        </script>
-                    </article>
-                </section>
-            </span>
-        </div>
-    </div>
-    <div id="footer">
-        <hr width="100%" align="center" noshade="noshade">
-        <footer>
-            <ul id="redes-sociales">
-                <li>
-                    <a href="https://www.facebook.com/profile.php?id=100001912261777"><img src="imagenes/iconos/fb.png" alt="Facebook"> Facebook</a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/jolmoz.asdf/"> <img src="imagenes/iconos/insta.png" alt="Whatsapp"> Instagram</a>
-                </li>
-                <li>
-                    <a href="https://gmail.com"> <img src="imagenes/iconos/mail.png" alt="Email"> jolmoz000@gmail.com</a>
-                </li>
-            </ul>
-            <h6> <i><b>Jolmoz Web</b></i></h6>
-            <p id="derechosFont">Pagina Web creada por Jose Luis Molina Zuluaga</p>
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" id="email" type="email" placeholder="Su Email *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">Email requerido.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email no valido.</div>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <!-- Phone number input-->
+                                <input class="form-control" id="phone" type="tel" placeholder="Su Teléfono *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">Numero de telefono requerido.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" id="message" placeholder="Su Mensaje *" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">Mensaje requerido.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Envio exitoso!</div>
+                        </div>
+                    </div>
+                    <!-- Submit error message-->
+                    <!---->
+                    <!-- This is what your users will see when there is-->
+                    <!-- an error submitting the form-->
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error enviando el mensaje!</div></div>
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Enviar</button></div>
+                </form>
+            </div>
+        </section>
+        
+        <!-- Footer-->
+        <footer class="footer py-4" id="footer">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Jose Luis Molina Zuluaga 2021</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/Jolmoz"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/profile.php?id=100001912261777"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/jose-luis-molina-zuluaga-1a102018a/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
         </footer>
-    </div>
-</body>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
